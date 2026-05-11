@@ -1,0 +1,22 @@
+[
+  { "ko": "레이디 가가", "query": "Lady Gaga" },
+  { "ko": "강아지", "query": "puppy" },
+  { "ko": "애호박", "query": "zucchini" },
+  { "ko": "에펠탑", "query": "Eiffel Tower" },
+  { "ko": "피자", "query": "pizza" },
+  { "ko": "고양이", "query": "cat" },
+  { "ko": "해바라기", "query": "sunflower" },
+  { "ko": "기타", "query": "guitar" },
+  { "ko": "자전거", "query": "bicycle" },
+  { "ko": "무지개", "query": "rainbow" },
+  { "ko": "코끼리", "query": "elephant" },
+  { "ko": "초콜릿", "query": "chocolate" },
+  { "ko": "노트북", "query": "laptop" },
+  { "ko": "선인장", "query": "cactus" },
+  { "ko": "버스", "query": "bus" },
+  { "ko": "수박", "query": "watermelon" },
+  { "ko": "펭귄", "query": "penguin" },
+  { "ko": "바이올린", "query": "violin" },
+  { "ko": "등대", "query": "lighthouse" },
+  { "ko": "도넛", "query": "donut" }
+]
