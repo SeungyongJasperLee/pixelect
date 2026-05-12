@@ -1,22 +1,4018 @@
 [
-  { "ko": "레이디 가가", "query": "Lady Gaga" },
-  { "ko": "강아지", "query": "puppy" },
-  { "ko": "애호박", "query": "zucchini" },
-  { "ko": "에펠탑", "query": "Eiffel Tower" },
-  { "ko": "피자", "query": "pizza" },
-  { "ko": "고양이", "query": "cat" },
-  { "ko": "해바라기", "query": "sunflower" },
-  { "ko": "기타", "query": "guitar" },
-  { "ko": "자전거", "query": "bicycle" },
-  { "ko": "무지개", "query": "rainbow" },
-  { "ko": "코끼리", "query": "elephant" },
-  { "ko": "초콜릿", "query": "chocolate" },
-  { "ko": "노트북", "query": "laptop" },
-  { "ko": "선인장", "query": "cactus" },
-  { "ko": "버스", "query": "bus" },
-  { "ko": "수박", "query": "watermelon" },
-  { "ko": "펭귄", "query": "penguin" },
-  { "ko": "바이올린", "query": "violin" },
-  { "ko": "등대", "query": "lighthouse" },
-  { "ko": "도넛", "query": "donut" }
+  {
+    "ko": "강아지",
+    "query": "puppy"
+  },
+  {
+    "ko": "고양이",
+    "query": "cat"
+  },
+  {
+    "ko": "코끼리",
+    "query": "elephant"
+  },
+  {
+    "ko": "펭귄",
+    "query": "penguin"
+  },
+  {
+    "ko": "기린",
+    "query": "giraffe"
+  },
+  {
+    "ko": "사자",
+    "query": "lion"
+  },
+  {
+    "ko": "호랑이",
+    "query": "tiger"
+  },
+  {
+    "ko": "판다",
+    "query": "panda"
+  },
+  {
+    "ko": "곰",
+    "query": "bear"
+  },
+  {
+    "ko": "늑대",
+    "query": "wolf"
+  },
+  {
+    "ko": "여우",
+    "query": "fox"
+  },
+  {
+    "ko": "토끼",
+    "query": "rabbit"
+  },
+  {
+    "ko": "다람쥐",
+    "query": "squirrel"
+  },
+  {
+    "ko": "햄스터",
+    "query": "hamster"
+  },
+  {
+    "ko": "앵무새",
+    "query": "parrot"
+  },
+  {
+    "ko": "독수리",
+    "query": "eagle"
+  },
+  {
+    "ko": "올빼미",
+    "query": "owl"
+  },
+  {
+    "ko": "플라밍고",
+    "query": "flamingo"
+  },
+  {
+    "ko": "돌고래",
+    "query": "dolphin"
+  },
+  {
+    "ko": "고래",
+    "query": "whale"
+  },
+  {
+    "ko": "상어",
+    "query": "shark"
+  },
+  {
+    "ko": "문어",
+    "query": "octopus"
+  },
+  {
+    "ko": "해파리",
+    "query": "jellyfish"
+  },
+  {
+    "ko": "거북이",
+    "query": "turtle"
+  },
+  {
+    "ko": "악어",
+    "query": "crocodile"
+  },
+  {
+    "ko": "카멜레온",
+    "query": "chameleon"
+  },
+  {
+    "ko": "이구아나",
+    "query": "iguana"
+  },
+  {
+    "ko": "개구리",
+    "query": "frog"
+  },
+  {
+    "ko": "나비",
+    "query": "butterfly"
+  },
+  {
+    "ko": "무당벌레",
+    "query": "ladybug"
+  },
+  {
+    "ko": "꿀벌",
+    "query": "honeybee"
+  },
+  {
+    "ko": "잠자리",
+    "query": "dragonfly"
+  },
+  {
+    "ko": "불가사리",
+    "query": "starfish"
+  },
+  {
+    "ko": "해마",
+    "query": "seahorse"
+  },
+  {
+    "ko": "수달",
+    "query": "otter"
+  },
+  {
+    "ko": "너구리",
+    "query": "raccoon"
+  },
+  {
+    "ko": "사슴",
+    "query": "deer"
+  },
+  {
+    "ko": "얼룩말",
+    "query": "zebra"
+  },
+  {
+    "ko": "하마",
+    "query": "hippopotamus"
+  },
+  {
+    "ko": "코뿔소",
+    "query": "rhinoceros"
+  },
+  {
+    "ko": "캥거루",
+    "query": "kangaroo"
+  },
+  {
+    "ko": "코알라",
+    "query": "koala"
+  },
+  {
+    "ko": "알파카",
+    "query": "alpaca"
+  },
+  {
+    "ko": "낙타",
+    "query": "camel"
+  },
+  {
+    "ko": "고슴도치",
+    "query": "hedgehog"
+  },
+  {
+    "ko": "오리",
+    "query": "duck"
+  },
+  {
+    "ko": "백조",
+    "query": "swan"
+  },
+  {
+    "ko": "공작새",
+    "query": "peacock"
+  },
+  {
+    "ko": "까마귀",
+    "query": "crow"
+  },
+  {
+    "ko": "참새",
+    "query": "sparrow"
+  },
+  {
+    "ko": "비둘기",
+    "query": "pigeon"
+  },
+  {
+    "ko": "타조",
+    "query": "ostrich"
+  },
+  {
+    "ko": "투칸",
+    "query": "toucan"
+  },
+  {
+    "ko": "펠리컨",
+    "query": "pelican"
+  },
+  {
+    "ko": "금붕어",
+    "query": "goldfish"
+  },
+  {
+    "ko": "열대어",
+    "query": "tropical fish"
+  },
+  {
+    "ko": "가오리",
+    "query": "manta ray"
+  },
+  {
+    "ko": "바다거북",
+    "query": "sea turtle"
+  },
+  {
+    "ko": "랍스터",
+    "query": "lobster"
+  },
+  {
+    "ko": "게",
+    "query": "crab"
+  },
+  {
+    "ko": "달팽이",
+    "query": "snail"
+  },
+  {
+    "ko": "지렁이",
+    "query": "earthworm"
+  },
+  {
+    "ko": "전갈",
+    "query": "scorpion"
+  },
+  {
+    "ko": "타란툴라",
+    "query": "tarantula"
+  },
+  {
+    "ko": "치타",
+    "query": "cheetah"
+  },
+  {
+    "ko": "표범",
+    "query": "leopard"
+  },
+  {
+    "ko": "재규어",
+    "query": "jaguar animal"
+  },
+  {
+    "ko": "퓨마",
+    "query": "puma animal"
+  },
+  {
+    "ko": "하이에나",
+    "query": "hyena"
+  },
+  {
+    "ko": "미어캣",
+    "query": "meerkat"
+  },
+  {
+    "ko": "침팬지",
+    "query": "chimpanzee"
+  },
+  {
+    "ko": "고릴라",
+    "query": "gorilla"
+  },
+  {
+    "ko": "오랑우탄",
+    "query": "orangutan"
+  },
+  {
+    "ko": "원숭이",
+    "query": "monkey"
+  },
+  {
+    "ko": "레서판다",
+    "query": "red panda"
+  },
+  {
+    "ko": "나무늘보",
+    "query": "sloth"
+  },
+  {
+    "ko": "아르마딜로",
+    "query": "armadillo"
+  },
+  {
+    "ko": "비버",
+    "query": "beaver"
+  },
+  {
+    "ko": "오소리",
+    "query": "badger"
+  },
+  {
+    "ko": "스컹크",
+    "query": "skunk"
+  },
+  {
+    "ko": "두더지",
+    "query": "mole animal"
+  },
+  {
+    "ko": "박쥐",
+    "query": "bat animal"
+  },
+  {
+    "ko": "순록",
+    "query": "reindeer"
+  },
+  {
+    "ko": "무스",
+    "query": "moose"
+  },
+  {
+    "ko": "들소",
+    "query": "bison"
+  },
+  {
+    "ko": "야크",
+    "query": "yak"
+  },
+  {
+    "ko": "염소",
+    "query": "goat"
+  },
+  {
+    "ko": "양",
+    "query": "sheep"
+  },
+  {
+    "ko": "돼지",
+    "query": "pig"
+  },
+  {
+    "ko": "소",
+    "query": "cow"
+  },
+  {
+    "ko": "말",
+    "query": "horse"
+  },
+  {
+    "ko": "당나귀",
+    "query": "donkey"
+  },
+  {
+    "ko": "닭",
+    "query": "chicken"
+  },
+  {
+    "ko": "칠면조",
+    "query": "turkey bird"
+  },
+  {
+    "ko": "거위",
+    "query": "goose"
+  },
+  {
+    "ko": "잉어",
+    "query": "koi fish"
+  },
+  {
+    "ko": "복어",
+    "query": "puffer fish"
+  },
+  {
+    "ko": "가재",
+    "query": "crayfish"
+  },
+  {
+    "ko": "조랑말",
+    "query": "pony"
+  },
+  {
+    "ko": "피자",
+    "query": "pizza"
+  },
+  {
+    "ko": "햄버거",
+    "query": "hamburger"
+  },
+  {
+    "ko": "초밥",
+    "query": "sushi"
+  },
+  {
+    "ko": "라면",
+    "query": "ramen"
+  },
+  {
+    "ko": "파스타",
+    "query": "pasta"
+  },
+  {
+    "ko": "스테이크",
+    "query": "steak"
+  },
+  {
+    "ko": "타코",
+    "query": "taco"
+  },
+  {
+    "ko": "도넛",
+    "query": "donut"
+  },
+  {
+    "ko": "크루아상",
+    "query": "croissant"
+  },
+  {
+    "ko": "베이글",
+    "query": "bagel"
+  },
+  {
+    "ko": "팬케이크",
+    "query": "pancakes"
+  },
+  {
+    "ko": "와플",
+    "query": "waffle"
+  },
+  {
+    "ko": "마카롱",
+    "query": "macaron"
+  },
+  {
+    "ko": "초콜릿",
+    "query": "chocolate"
+  },
+  {
+    "ko": "아이스크림",
+    "query": "ice cream"
+  },
+  {
+    "ko": "케이크",
+    "query": "cake"
+  },
+  {
+    "ko": "컵케이크",
+    "query": "cupcake"
+  },
+  {
+    "ko": "브라우니",
+    "query": "brownie dessert"
+  },
+  {
+    "ko": "치즈케이크",
+    "query": "cheesecake"
+  },
+  {
+    "ko": "티라미수",
+    "query": "tiramisu"
+  },
+  {
+    "ko": "크레페",
+    "query": "crepe"
+  },
+  {
+    "ko": "프렌치토스트",
+    "query": "french toast"
+  },
+  {
+    "ko": "김밥",
+    "query": "kimbap"
+  },
+  {
+    "ko": "비빔밥",
+    "query": "bibimbap"
+  },
+  {
+    "ko": "떡볶이",
+    "query": "tteokbokki"
+  },
+  {
+    "ko": "김치찌개",
+    "query": "kimchi stew"
+  },
+  {
+    "ko": "불고기",
+    "query": "bulgogi"
+  },
+  {
+    "ko": "삼겹살",
+    "query": "samgyeopsal"
+  },
+  {
+    "ko": "치킨",
+    "query": "fried chicken"
+  },
+  {
+    "ko": "만두",
+    "query": "dumpling"
+  },
+  {
+    "ko": "볶음밥",
+    "query": "fried rice"
+  },
+  {
+    "ko": "짜장면",
+    "query": "jajangmyeon"
+  },
+  {
+    "ko": "탕수육",
+    "query": "sweet sour pork"
+  },
+  {
+    "ko": "딤섬",
+    "query": "dim sum"
+  },
+  {
+    "ko": "카레",
+    "query": "curry"
+  },
+  {
+    "ko": "나시고렝",
+    "query": "nasi goreng"
+  },
+  {
+    "ko": "팟타이",
+    "query": "pad thai"
+  },
+  {
+    "ko": "쌀국수",
+    "query": "pho"
+  },
+  {
+    "ko": "케밥",
+    "query": "kebab"
+  },
+  {
+    "ko": "팔라펠",
+    "query": "falafel"
+  },
+  {
+    "ko": "훔무스",
+    "query": "hummus"
+  },
+  {
+    "ko": "나초",
+    "query": "nachos"
+  },
+  {
+    "ko": "부리또",
+    "query": "burrito"
+  },
+  {
+    "ko": "핫도그",
+    "query": "hot dog"
+  },
+  {
+    "ko": "감자튀김",
+    "query": "french fries"
+  },
+  {
+    "ko": "양파링",
+    "query": "onion rings"
+  },
+  {
+    "ko": "치즈",
+    "query": "cheese"
+  },
+  {
+    "ko": "바게트",
+    "query": "baguette"
+  },
+  {
+    "ko": "프레첼",
+    "query": "pretzel"
+  },
+  {
+    "ko": "시나몬롤",
+    "query": "cinnamon roll"
+  },
+  {
+    "ko": "수박",
+    "query": "watermelon"
+  },
+  {
+    "ko": "딸기",
+    "query": "strawberry"
+  },
+  {
+    "ko": "블루베리",
+    "query": "blueberry"
+  },
+  {
+    "ko": "체리",
+    "query": "cherry fruit"
+  },
+  {
+    "ko": "포도",
+    "query": "grapes"
+  },
+  {
+    "ko": "바나나",
+    "query": "banana"
+  },
+  {
+    "ko": "파인애플",
+    "query": "pineapple"
+  },
+  {
+    "ko": "망고",
+    "query": "mango"
+  },
+  {
+    "ko": "코코넛",
+    "query": "coconut"
+  },
+  {
+    "ko": "아보카도",
+    "query": "avocado"
+  },
+  {
+    "ko": "레몬",
+    "query": "lemon"
+  },
+  {
+    "ko": "오렌지",
+    "query": "orange fruit"
+  },
+  {
+    "ko": "키위",
+    "query": "kiwi fruit"
+  },
+  {
+    "ko": "복숭아",
+    "query": "peach fruit"
+  },
+  {
+    "ko": "석류",
+    "query": "pomegranate"
+  },
+  {
+    "ko": "무화과",
+    "query": "fig fruit"
+  },
+  {
+    "ko": "라즈베리",
+    "query": "raspberry"
+  },
+  {
+    "ko": "애호박",
+    "query": "zucchini"
+  },
+  {
+    "ko": "브로콜리",
+    "query": "broccoli"
+  },
+  {
+    "ko": "당근",
+    "query": "carrot"
+  },
+  {
+    "ko": "옥수수",
+    "query": "corn"
+  },
+  {
+    "ko": "토마토",
+    "query": "tomato"
+  },
+  {
+    "ko": "양배추",
+    "query": "cabbage"
+  },
+  {
+    "ko": "버섯",
+    "query": "mushroom"
+  },
+  {
+    "ko": "고구마",
+    "query": "sweet potato"
+  },
+  {
+    "ko": "감자",
+    "query": "potato"
+  },
+  {
+    "ko": "양파",
+    "query": "onion"
+  },
+  {
+    "ko": "마늘",
+    "query": "garlic"
+  },
+  {
+    "ko": "고추",
+    "query": "chili pepper"
+  },
+  {
+    "ko": "가지",
+    "query": "eggplant"
+  },
+  {
+    "ko": "호박",
+    "query": "pumpkin"
+  },
+  {
+    "ko": "샐러드",
+    "query": "salad"
+  },
+  {
+    "ko": "에그타르트",
+    "query": "egg tart"
+  },
+  {
+    "ko": "붕어빵",
+    "query": "fish shaped bread"
+  },
+  {
+    "ko": "호떡",
+    "query": "hotteok"
+  },
+  {
+    "ko": "떡",
+    "query": "rice cake korean"
+  },
+  {
+    "ko": "젤리",
+    "query": "gummy candy"
+  },
+  {
+    "ko": "솜사탕",
+    "query": "cotton candy"
+  },
+  {
+    "ko": "팝콘",
+    "query": "popcorn"
+  },
+  {
+    "ko": "프레즐",
+    "query": "soft pretzel"
+  },
+  {
+    "ko": "오므라이스",
+    "query": "omurice"
+  },
+  {
+    "ko": "돈까스",
+    "query": "tonkatsu"
+  },
+  {
+    "ko": "우동",
+    "query": "udon noodle"
+  },
+  {
+    "ko": "소바",
+    "query": "soba noodle"
+  },
+  {
+    "ko": "연어",
+    "query": "salmon sashimi"
+  },
+  {
+    "ko": "랍스터 요리",
+    "query": "lobster dish"
+  },
+  {
+    "ko": "굴",
+    "query": "oyster food"
+  },
+  {
+    "ko": "새우튀김",
+    "query": "tempura shrimp"
+  },
+  {
+    "ko": "족발",
+    "query": "jokbal"
+  },
+  {
+    "ko": "에펠탑",
+    "query": "Eiffel Tower"
+  },
+  {
+    "ko": "자유의 여신상",
+    "query": "Statue of Liberty"
+  },
+  {
+    "ko": "만리장성",
+    "query": "Great Wall of China"
+  },
+  {
+    "ko": "피사의 사탑",
+    "query": "Leaning Tower of Pisa"
+  },
+  {
+    "ko": "콜로세움",
+    "query": "Colosseum Rome"
+  },
+  {
+    "ko": "타지마할",
+    "query": "Taj Mahal"
+  },
+  {
+    "ko": "빅벤",
+    "query": "Big Ben London"
+  },
+  {
+    "ko": "오페라 하우스",
+    "query": "Sydney Opera House"
+  },
+  {
+    "ko": "금문교",
+    "query": "Golden Gate Bridge"
+  },
+  {
+    "ko": "마추픽추",
+    "query": "Machu Picchu"
+  },
+  {
+    "ko": "피라미드",
+    "query": "Egyptian pyramids"
+  },
+  {
+    "ko": "스핑크스",
+    "query": "Sphinx Egypt"
+  },
+  {
+    "ko": "앙코르와트",
+    "query": "Angkor Wat"
+  },
+  {
+    "ko": "성 바실리 대성당",
+    "query": "St Basil Cathedral"
+  },
+  {
+    "ko": "사그라다 파밀리아",
+    "query": "Sagrada Familia"
+  },
+  {
+    "ko": "노이슈반슈타인 성",
+    "query": "Neuschwanstein Castle"
+  },
+  {
+    "ko": "버킹엄 궁전",
+    "query": "Buckingham Palace"
+  },
+  {
+    "ko": "베르사유 궁전",
+    "query": "Palace of Versailles"
+  },
+  {
+    "ko": "모아이 석상",
+    "query": "Moai Easter Island"
+  },
+  {
+    "ko": "스톤헨지",
+    "query": "Stonehenge"
+  },
+  {
+    "ko": "아크로폴리스",
+    "query": "Acropolis Athens"
+  },
+  {
+    "ko": "두바이 부르즈 할리파",
+    "query": "Burj Khalifa"
+  },
+  {
+    "ko": "도쿄 타워",
+    "query": "Tokyo Tower"
+  },
+  {
+    "ko": "후지산",
+    "query": "Mount Fuji"
+  },
+  {
+    "ko": "만리장성",
+    "query": "Great Wall winter"
+  },
+  {
+    "ko": "나이아가라 폭포",
+    "query": "Niagara Falls"
+  },
+  {
+    "ko": "그랜드 캐니언",
+    "query": "Grand Canyon"
+  },
+  {
+    "ko": "빅토리아 폭포",
+    "query": "Victoria Falls"
+  },
+  {
+    "ko": "오로라",
+    "query": "northern lights"
+  },
+  {
+    "ko": "산호초",
+    "query": "coral reef"
+  },
+  {
+    "ko": "경복궁",
+    "query": "Gyeongbokgung Palace"
+  },
+  {
+    "ko": "남산타워",
+    "query": "Namsan Tower Seoul"
+  },
+  {
+    "ko": "해운대",
+    "query": "Haeundae Beach"
+  },
+  {
+    "ko": "제주 돌하르방",
+    "query": "Jeju stone statue"
+  },
+  {
+    "ko": "한라산",
+    "query": "Hallasan Mountain"
+  },
+  {
+    "ko": "석굴암",
+    "query": "Seokguram Grotto"
+  },
+  {
+    "ko": "불국사",
+    "query": "Bulguksa Temple"
+  },
+  {
+    "ko": "광화문",
+    "query": "Gwanghwamun Gate"
+  },
+  {
+    "ko": "창덕궁",
+    "query": "Changdeokgung Palace"
+  },
+  {
+    "ko": "덕수궁",
+    "query": "Deoksugung Palace"
+  },
+  {
+    "ko": "타임스 스퀘어",
+    "query": "Times Square NYC"
+  },
+  {
+    "ko": "센트럴 파크",
+    "query": "Central Park NYC"
+  },
+  {
+    "ko": "브루클린 브릿지",
+    "query": "Brooklyn Bridge"
+  },
+  {
+    "ko": "할리우드 사인",
+    "query": "Hollywood Sign"
+  },
+  {
+    "ko": "월스트리트 황소",
+    "query": "Wall Street Bull"
+  },
+  {
+    "ko": "링컨 기념관",
+    "query": "Lincoln Memorial"
+  },
+  {
+    "ko": "러시모어산",
+    "query": "Mount Rushmore"
+  },
+  {
+    "ko": "산토리니",
+    "query": "Santorini Greece"
+  },
+  {
+    "ko": "베네치아 곤돌라",
+    "query": "Venice gondola"
+  },
+  {
+    "ko": "몽생미셸",
+    "query": "Mont Saint Michel"
+  },
+  {
+    "ko": "노트르담 대성당",
+    "query": "Notre Dame Paris"
+  },
+  {
+    "ko": "런던 아이",
+    "query": "London Eye"
+  },
+  {
+    "ko": "타워 브릿지",
+    "query": "Tower Bridge London"
+  },
+  {
+    "ko": "브란덴부르크 문",
+    "query": "Brandenburg Gate"
+  },
+  {
+    "ko": "체르노빌",
+    "query": "Chernobyl"
+  },
+  {
+    "ko": "아말피 해안",
+    "query": "Amalfi Coast"
+  },
+  {
+    "ko": "카파도키아",
+    "query": "Cappadocia balloons"
+  },
+  {
+    "ko": "블루모스크",
+    "query": "Blue Mosque Istanbul"
+  },
+  {
+    "ko": "페트라",
+    "query": "Petra Jordan"
+  },
+  {
+    "ko": "와디럼",
+    "query": "Wadi Rum desert"
+  },
+  {
+    "ko": "사하라 사막",
+    "query": "Sahara Desert"
+  },
+  {
+    "ko": "킬리만자로",
+    "query": "Mount Kilimanjaro"
+  },
+  {
+    "ko": "세렝게티",
+    "query": "Serengeti safari"
+  },
+  {
+    "ko": "갈라파고스",
+    "query": "Galapagos Islands"
+  },
+  {
+    "ko": "이과수 폭포",
+    "query": "Iguazu Falls"
+  },
+  {
+    "ko": "치첸이트사",
+    "query": "Chichen Itza"
+  },
+  {
+    "ko": "하롱베이",
+    "query": "Ha Long Bay"
+  },
+  {
+    "ko": "보로부두르",
+    "query": "Borobudur temple"
+  },
+  {
+    "ko": "발리 계단식 논",
+    "query": "Bali rice terrace"
+  },
+  {
+    "ko": "울루루",
+    "query": "Uluru Australia"
+  },
+  {
+    "ko": "밀포드사운드",
+    "query": "Milford Sound"
+  },
+  {
+    "ko": "반딧불 동굴",
+    "query": "Waitomo glowworm cave"
+  },
+  {
+    "ko": "히말라야",
+    "query": "Himalayas mountains"
+  },
+  {
+    "ko": "에베레스트",
+    "query": "Mount Everest"
+  },
+  {
+    "ko": "몰디브",
+    "query": "Maldives beach"
+  },
+  {
+    "ko": "보라보라 섬",
+    "query": "Bora Bora"
+  },
+  {
+    "ko": "하와이 화산",
+    "query": "Hawaii volcano"
+  },
+  {
+    "ko": "옐로스톤",
+    "query": "Yellowstone geyser"
+  },
+  {
+    "ko": "요세미티",
+    "query": "Yosemite Valley"
+  },
+  {
+    "ko": "반프 국립공원",
+    "query": "Banff National Park"
+  },
+  {
+    "ko": "파타고니아",
+    "query": "Patagonia landscape"
+  },
+  {
+    "ko": "아이슬란드 간헐천",
+    "query": "Iceland geyser"
+  },
+  {
+    "ko": "블루라군",
+    "query": "Blue Lagoon Iceland"
+  },
+  {
+    "ko": "프라하 성",
+    "query": "Prague Castle"
+  },
+  {
+    "ko": "에든버러 성",
+    "query": "Edinburgh Castle"
+  },
+  {
+    "ko": "크렘린",
+    "query": "Kremlin Moscow"
+  },
+  {
+    "ko": "자금성",
+    "query": "Forbidden City Beijing"
+  },
+  {
+    "ko": "만달레이 궁전",
+    "query": "Mandalay Palace"
+  },
+  {
+    "ko": "왓 아룬",
+    "query": "Wat Arun Bangkok"
+  },
+  {
+    "ko": "시부야 교차로",
+    "query": "Shibuya Crossing"
+  },
+  {
+    "ko": "도톤보리",
+    "query": "Dotonbori Osaka"
+  },
+  {
+    "ko": "센소지",
+    "query": "Sensoji Temple"
+  },
+  {
+    "ko": "도리이 게이트",
+    "query": "Fushimi Inari torii"
+  },
+  {
+    "ko": "대나무 숲",
+    "query": "Arashiyama bamboo"
+  },
+  {
+    "ko": "벚꽃길",
+    "query": "cherry blossom street"
+  },
+  {
+    "ko": "단풍 산",
+    "query": "autumn foliage mountain"
+  },
+  {
+    "ko": "눈 덮인 마을",
+    "query": "snowy village"
+  },
+  {
+    "ko": "열대 해변",
+    "query": "tropical beach"
+  },
+  {
+    "ko": "등대",
+    "query": "lighthouse"
+  },
+  {
+    "ko": "노트북",
+    "query": "laptop computer"
+  },
+  {
+    "ko": "스마트폰",
+    "query": "smartphone"
+  },
+  {
+    "ko": "헤드폰",
+    "query": "headphones"
+  },
+  {
+    "ko": "카메라",
+    "query": "camera"
+  },
+  {
+    "ko": "시계",
+    "query": "wristwatch"
+  },
+  {
+    "ko": "안경",
+    "query": "eyeglasses"
+  },
+  {
+    "ko": "선글라스",
+    "query": "sunglasses"
+  },
+  {
+    "ko": "우산",
+    "query": "umbrella"
+  },
+  {
+    "ko": "가방",
+    "query": "handbag"
+  },
+  {
+    "ko": "운동화",
+    "query": "sneakers"
+  },
+  {
+    "ko": "구두",
+    "query": "dress shoes"
+  },
+  {
+    "ko": "넥타이",
+    "query": "necktie"
+  },
+  {
+    "ko": "모자",
+    "query": "hat"
+  },
+  {
+    "ko": "장갑",
+    "query": "gloves"
+  },
+  {
+    "ko": "목도리",
+    "query": "scarf"
+  },
+  {
+    "ko": "자전거",
+    "query": "bicycle"
+  },
+  {
+    "ko": "오토바이",
+    "query": "motorcycle"
+  },
+  {
+    "ko": "스케이트보드",
+    "query": "skateboard"
+  },
+  {
+    "ko": "서핑보드",
+    "query": "surfboard"
+  },
+  {
+    "ko": "텐트",
+    "query": "camping tent"
+  },
+  {
+    "ko": "해먹",
+    "query": "hammock"
+  },
+  {
+    "ko": "촛불",
+    "query": "candle light"
+  },
+  {
+    "ko": "풍선",
+    "query": "balloons"
+  },
+  {
+    "ko": "연",
+    "query": "kite flying"
+  },
+  {
+    "ko": "비눗방울",
+    "query": "soap bubbles"
+  },
+  {
+    "ko": "보드게임",
+    "query": "board game"
+  },
+  {
+    "ko": "퍼즐",
+    "query": "jigsaw puzzle"
+  },
+  {
+    "ko": "루빅스 큐브",
+    "query": "Rubik cube"
+  },
+  {
+    "ko": "다트",
+    "query": "dartboard"
+  },
+  {
+    "ko": "당구",
+    "query": "billiard table"
+  },
+  {
+    "ko": "타자기",
+    "query": "typewriter"
+  },
+  {
+    "ko": "축음기",
+    "query": "gramophone"
+  },
+  {
+    "ko": "랜턴",
+    "query": "lantern"
+  },
+  {
+    "ko": "나침반",
+    "query": "compass"
+  },
+  {
+    "ko": "망원경",
+    "query": "telescope"
+  },
+  {
+    "ko": "현미경",
+    "query": "microscope"
+  },
+  {
+    "ko": "지구본",
+    "query": "globe"
+  },
+  {
+    "ko": "모래시계",
+    "query": "hourglass"
+  },
+  {
+    "ko": "열쇠",
+    "query": "key lock"
+  },
+  {
+    "ko": "자물쇠",
+    "query": "padlock"
+  },
+  {
+    "ko": "다이아몬드",
+    "query": "diamond gem"
+  },
+  {
+    "ko": "왕관",
+    "query": "crown"
+  },
+  {
+    "ko": "트로피",
+    "query": "trophy"
+  },
+  {
+    "ko": "메달",
+    "query": "gold medal"
+  },
+  {
+    "ko": "주사위",
+    "query": "dice"
+  },
+  {
+    "ko": "체스",
+    "query": "chess pieces"
+  },
+  {
+    "ko": "마이크",
+    "query": "microphone"
+  },
+  {
+    "ko": "드럼",
+    "query": "drum set"
+  },
+  {
+    "ko": "피아노",
+    "query": "piano keyboard"
+  },
+  {
+    "ko": "기타",
+    "query": "acoustic guitar"
+  },
+  {
+    "ko": "바이올린",
+    "query": "violin"
+  },
+  {
+    "ko": "트럼펫",
+    "query": "trumpet"
+  },
+  {
+    "ko": "색소폰",
+    "query": "saxophone"
+  },
+  {
+    "ko": "첼로",
+    "query": "cello"
+  },
+  {
+    "ko": "하프",
+    "query": "harp instrument"
+  },
+  {
+    "ko": "아코디언",
+    "query": "accordion"
+  },
+  {
+    "ko": "우쿨렐레",
+    "query": "ukulele"
+  },
+  {
+    "ko": "탬버린",
+    "query": "tambourine"
+  },
+  {
+    "ko": "실로폰",
+    "query": "xylophone"
+  },
+  {
+    "ko": "DJ 턴테이블",
+    "query": "DJ turntable"
+  },
+  {
+    "ko": "빈티지 라디오",
+    "query": "vintage radio"
+  },
+  {
+    "ko": "네온사인",
+    "query": "neon sign"
+  },
+  {
+    "ko": "신호등",
+    "query": "traffic light"
+  },
+  {
+    "ko": "소화전",
+    "query": "fire hydrant"
+  },
+  {
+    "ko": "우체통",
+    "query": "mailbox red"
+  },
+  {
+    "ko": "전화부스",
+    "query": "phone booth"
+  },
+  {
+    "ko": "자판기",
+    "query": "vending machine"
+  },
+  {
+    "ko": "회전목마",
+    "query": "carousel"
+  },
+  {
+    "ko": "관람차",
+    "query": "ferris wheel"
+  },
+  {
+    "ko": "롤러코스터",
+    "query": "roller coaster"
+  },
+  {
+    "ko": "열기구",
+    "query": "hot air balloon"
+  },
+  {
+    "ko": "종이비행기",
+    "query": "paper airplane"
+  },
+  {
+    "ko": "돋보기",
+    "query": "magnifying glass"
+  },
+  {
+    "ko": "붓",
+    "query": "paint brush"
+  },
+  {
+    "ko": "팔레트",
+    "query": "paint palette"
+  },
+  {
+    "ko": "이젤",
+    "query": "easel painting"
+  },
+  {
+    "ko": "재봉틀",
+    "query": "sewing machine"
+  },
+  {
+    "ko": "뜨개질",
+    "query": "knitting yarn"
+  },
+  {
+    "ko": "바둑판",
+    "query": "go board game"
+  },
+  {
+    "ko": "마작",
+    "query": "mahjong tiles"
+  },
+  {
+    "ko": "카드 덱",
+    "query": "playing cards"
+  },
+  {
+    "ko": "만화경",
+    "query": "kaleidoscope"
+  },
+  {
+    "ko": "눈사람",
+    "query": "snowman"
+  },
+  {
+    "ko": "크리스마스 트리",
+    "query": "Christmas tree"
+  },
+  {
+    "ko": "잭오랜턴",
+    "query": "jack o lantern"
+  },
+  {
+    "ko": "부활절 달걀",
+    "query": "Easter eggs"
+  },
+  {
+    "ko": "폭죽",
+    "query": "fireworks"
+  },
+  {
+    "ko": "선물 상자",
+    "query": "gift box"
+  },
+  {
+    "ko": "편지",
+    "query": "handwritten letter"
+  },
+  {
+    "ko": "엽서",
+    "query": "postcard vintage"
+  },
+  {
+    "ko": "스노볼",
+    "query": "snow globe"
+  },
+  {
+    "ko": "오르골",
+    "query": "music box"
+  },
+  {
+    "ko": "풍경 종",
+    "query": "wind chime"
+  },
+  {
+    "ko": "드림캐쳐",
+    "query": "dreamcatcher"
+  },
+  {
+    "ko": "도장",
+    "query": "rubber stamp"
+  },
+  {
+    "ko": "만년필",
+    "query": "fountain pen"
+  },
+  {
+    "ko": "잉크병",
+    "query": "ink bottle"
+  },
+  {
+    "ko": "책",
+    "query": "open book"
+  },
+  {
+    "ko": "도서관",
+    "query": "library interior"
+  },
+  {
+    "ko": "안경과 책",
+    "query": "reading glasses book"
+  },
+  {
+    "ko": "스포츠카",
+    "query": "sports car"
+  },
+  {
+    "ko": "클래식카",
+    "query": "classic car vintage"
+  },
+  {
+    "ko": "경찰차",
+    "query": "police car"
+  },
+  {
+    "ko": "소방차",
+    "query": "fire truck"
+  },
+  {
+    "ko": "구급차",
+    "query": "ambulance"
+  },
+  {
+    "ko": "택시",
+    "query": "yellow taxi"
+  },
+  {
+    "ko": "버스",
+    "query": "city bus"
+  },
+  {
+    "ko": "이층버스",
+    "query": "double decker bus"
+  },
+  {
+    "ko": "트럭",
+    "query": "truck"
+  },
+  {
+    "ko": "덤프트럭",
+    "query": "dump truck"
+  },
+  {
+    "ko": "푸드트럭",
+    "query": "food truck"
+  },
+  {
+    "ko": "아이스크림 트럭",
+    "query": "ice cream truck"
+  },
+  {
+    "ko": "트랙터",
+    "query": "tractor farm"
+  },
+  {
+    "ko": "불도저",
+    "query": "bulldozer"
+  },
+  {
+    "ko": "포크레인",
+    "query": "excavator"
+  },
+  {
+    "ko": "기차",
+    "query": "train"
+  },
+  {
+    "ko": "증기기관차",
+    "query": "steam locomotive"
+  },
+  {
+    "ko": "지하철",
+    "query": "subway train"
+  },
+  {
+    "ko": "모노레일",
+    "query": "monorail"
+  },
+  {
+    "ko": "케이블카",
+    "query": "cable car"
+  },
+  {
+    "ko": "곤돌라",
+    "query": "gondola lift"
+  },
+  {
+    "ko": "비행기",
+    "query": "airplane"
+  },
+  {
+    "ko": "전투기",
+    "query": "fighter jet"
+  },
+  {
+    "ko": "헬리콥터",
+    "query": "helicopter"
+  },
+  {
+    "ko": "열기구",
+    "query": "hot air balloon colorful"
+  },
+  {
+    "ko": "행글라이더",
+    "query": "hang glider"
+  },
+  {
+    "ko": "패러글라이딩",
+    "query": "paragliding"
+  },
+  {
+    "ko": "요트",
+    "query": "yacht"
+  },
+  {
+    "ko": "카누",
+    "query": "canoe"
+  },
+  {
+    "ko": "카약",
+    "query": "kayak"
+  },
+  {
+    "ko": "제트스키",
+    "query": "jet ski"
+  },
+  {
+    "ko": "크루즈선",
+    "query": "cruise ship"
+  },
+  {
+    "ko": "범선",
+    "query": "sailing ship"
+  },
+  {
+    "ko": "잠수함",
+    "query": "submarine"
+  },
+  {
+    "ko": "유조선",
+    "query": "tanker ship"
+  },
+  {
+    "ko": "세그웨이",
+    "query": "segway"
+  },
+  {
+    "ko": "전동킥보드",
+    "query": "electric scooter"
+  },
+  {
+    "ko": "스쿠터",
+    "query": "vespa scooter"
+  },
+  {
+    "ko": "릭샤",
+    "query": "rickshaw"
+  },
+  {
+    "ko": "썰매",
+    "query": "sled snow"
+  },
+  {
+    "ko": "스노모빌",
+    "query": "snowmobile"
+  },
+  {
+    "ko": "지프",
+    "query": "jeep offroad"
+  },
+  {
+    "ko": "리무진",
+    "query": "limousine"
+  },
+  {
+    "ko": "캠핑카",
+    "query": "camper van"
+  },
+  {
+    "ko": "ATV",
+    "query": "ATV quad bike"
+  },
+  {
+    "ko": "경주용 자동차",
+    "query": "racing car"
+  },
+  {
+    "ko": "마차",
+    "query": "horse carriage"
+  },
+  {
+    "ko": "인력거",
+    "query": "pulled rickshaw"
+  },
+  {
+    "ko": "트램",
+    "query": "tram streetcar"
+  },
+  {
+    "ko": "KTX",
+    "query": "KTX high speed train"
+  },
+  {
+    "ko": "신칸센",
+    "query": "shinkansen"
+  },
+  {
+    "ko": "유로스타",
+    "query": "eurostar train"
+  },
+  {
+    "ko": "보트",
+    "query": "rowboat"
+  },
+  {
+    "ko": "페리",
+    "query": "ferry boat"
+  },
+  {
+    "ko": "호버크래프트",
+    "query": "hovercraft"
+  },
+  {
+    "ko": "수상 택시",
+    "query": "water taxi"
+  },
+  {
+    "ko": "뗏목",
+    "query": "raft river"
+  },
+  {
+    "ko": "집라인",
+    "query": "zipline"
+  },
+  {
+    "ko": "봅슬레이",
+    "query": "bobsled"
+  },
+  {
+    "ko": "스키 리프트",
+    "query": "ski lift"
+  },
+  {
+    "ko": "우주왕복선",
+    "query": "space shuttle"
+  },
+  {
+    "ko": "로켓",
+    "query": "rocket launch"
+  },
+  {
+    "ko": "삼륜차",
+    "query": "tuk tuk"
+  },
+  {
+    "ko": "경운기",
+    "query": "power tiller"
+  },
+  {
+    "ko": "자전거 택시",
+    "query": "pedicab"
+  },
+  {
+    "ko": "수륙양용차",
+    "query": "amphibious vehicle"
+  },
+  {
+    "ko": "전기차",
+    "query": "electric car charging"
+  },
+  {
+    "ko": "수소차",
+    "query": "hydrogen car"
+  },
+  {
+    "ko": "드론",
+    "query": "drone flying"
+  },
+  {
+    "ko": "짚라인",
+    "query": "zipline adventure"
+  },
+  {
+    "ko": "번지점프",
+    "query": "bungee jumping"
+  },
+  {
+    "ko": "스카이다이빙",
+    "query": "skydiving"
+  },
+  {
+    "ko": "글라이더",
+    "query": "glider airplane"
+  },
+  {
+    "ko": "기구",
+    "query": "blimp airship"
+  },
+  {
+    "ko": "군함",
+    "query": "warship"
+  },
+  {
+    "ko": "항공모함",
+    "query": "aircraft carrier"
+  },
+  {
+    "ko": "구축함",
+    "query": "destroyer ship"
+  },
+  {
+    "ko": "순양함",
+    "query": "cruiser ship military"
+  },
+  {
+    "ko": "탱크",
+    "query": "military tank"
+  },
+  {
+    "ko": "해바라기",
+    "query": "sunflower field"
+  },
+  {
+    "ko": "벚꽃",
+    "query": "cherry blossom"
+  },
+  {
+    "ko": "라벤더 밭",
+    "query": "lavender field"
+  },
+  {
+    "ko": "튤립",
+    "query": "tulip field"
+  },
+  {
+    "ko": "장미",
+    "query": "red rose"
+  },
+  {
+    "ko": "연꽃",
+    "query": "lotus flower"
+  },
+  {
+    "ko": "선인장",
+    "query": "cactus desert"
+  },
+  {
+    "ko": "대나무",
+    "query": "bamboo forest"
+  },
+  {
+    "ko": "바오밥 나무",
+    "query": "baobab tree"
+  },
+  {
+    "ko": "세쿼이아",
+    "query": "sequoia tree"
+  },
+  {
+    "ko": "단풍나무",
+    "query": "maple tree autumn"
+  },
+  {
+    "ko": "야자수",
+    "query": "palm tree"
+  },
+  {
+    "ko": "소나무",
+    "query": "pine tree"
+  },
+  {
+    "ko": "은행나무",
+    "query": "ginkgo tree"
+  },
+  {
+    "ko": "버드나무",
+    "query": "willow tree"
+  },
+  {
+    "ko": "무지개",
+    "query": "rainbow sky"
+  },
+  {
+    "ko": "번개",
+    "query": "lightning bolt"
+  },
+  {
+    "ko": "토네이도",
+    "query": "tornado"
+  },
+  {
+    "ko": "폭풍우",
+    "query": "thunderstorm"
+  },
+  {
+    "ko": "눈보라",
+    "query": "blizzard snow"
+  },
+  {
+    "ko": "일출",
+    "query": "sunrise ocean"
+  },
+  {
+    "ko": "일몰",
+    "query": "sunset"
+  },
+  {
+    "ko": "밤하늘 별",
+    "query": "starry night sky"
+  },
+  {
+    "ko": "은하수",
+    "query": "milky way"
+  },
+  {
+    "ko": "보름달",
+    "query": "full moon"
+  },
+  {
+    "ko": "일식",
+    "query": "solar eclipse"
+  },
+  {
+    "ko": "폭포",
+    "query": "waterfall"
+  },
+  {
+    "ko": "간헐천",
+    "query": "geyser erupting"
+  },
+  {
+    "ko": "화산",
+    "query": "volcano eruption"
+  },
+  {
+    "ko": "빙하",
+    "query": "glacier"
+  },
+  {
+    "ko": "빙산",
+    "query": "iceberg"
+  },
+  {
+    "ko": "동굴",
+    "query": "cave interior"
+  },
+  {
+    "ko": "석순",
+    "query": "stalagmite cave"
+  },
+  {
+    "ko": "계곡",
+    "query": "mountain valley"
+  },
+  {
+    "ko": "협곡",
+    "query": "canyon"
+  },
+  {
+    "ko": "절벽",
+    "query": "cliff ocean"
+  },
+  {
+    "ko": "모래 사막",
+    "query": "sand dunes"
+  },
+  {
+    "ko": "오아시스",
+    "query": "oasis desert"
+  },
+  {
+    "ko": "늪지대",
+    "query": "swamp"
+  },
+  {
+    "ko": "맹그로브",
+    "query": "mangrove forest"
+  },
+  {
+    "ko": "열대우림",
+    "query": "tropical rainforest"
+  },
+  {
+    "ko": "침엽수림",
+    "query": "conifer forest"
+  },
+  {
+    "ko": "자작나무 숲",
+    "query": "birch forest"
+  },
+  {
+    "ko": "이끼 숲",
+    "query": "moss forest"
+  },
+  {
+    "ko": "억새밭",
+    "query": "silver grass field"
+  },
+  {
+    "ko": "논",
+    "query": "rice paddy"
+  },
+  {
+    "ko": "밀밭",
+    "query": "wheat field"
+  },
+  {
+    "ko": "목초지",
+    "query": "green meadow"
+  },
+  {
+    "ko": "절벽 해안",
+    "query": "coastal cliff"
+  },
+  {
+    "ko": "파도",
+    "query": "ocean wave"
+  },
+  {
+    "ko": "조수웅덩이",
+    "query": "tide pool"
+  },
+  {
+    "ko": "산호",
+    "query": "coral underwater"
+  },
+  {
+    "ko": "해초",
+    "query": "seaweed underwater"
+  },
+  {
+    "ko": "호수",
+    "query": "mountain lake"
+  },
+  {
+    "ko": "강",
+    "query": "river flowing"
+  },
+  {
+    "ko": "개울",
+    "query": "forest stream"
+  },
+  {
+    "ko": "연못",
+    "query": "garden pond"
+  },
+  {
+    "ko": "습지",
+    "query": "wetland"
+  },
+  {
+    "ko": "간척지",
+    "query": "reclaimed land"
+  },
+  {
+    "ko": "용암",
+    "query": "lava flow"
+  },
+  {
+    "ko": "온천",
+    "query": "hot spring"
+  },
+  {
+    "ko": "게이샤 정원",
+    "query": "Japanese garden"
+  },
+  {
+    "ko": "영국식 정원",
+    "query": "English garden"
+  },
+  {
+    "ko": "수선화",
+    "query": "daffodil"
+  },
+  {
+    "ko": "히아신스",
+    "query": "hyacinth flower"
+  },
+  {
+    "ko": "난초",
+    "query": "orchid"
+  },
+  {
+    "ko": "목련",
+    "query": "magnolia flower"
+  },
+  {
+    "ko": "동백꽃",
+    "query": "camellia flower"
+  },
+  {
+    "ko": "수국",
+    "query": "hydrangea"
+  },
+  {
+    "ko": "진달래",
+    "query": "azalea"
+  },
+  {
+    "ko": "개나리",
+    "query": "forsythia"
+  },
+  {
+    "ko": "코스모스",
+    "query": "cosmos flower"
+  },
+  {
+    "ko": "백합",
+    "query": "lily flower"
+  },
+  {
+    "ko": "카네이션",
+    "query": "carnation"
+  },
+  {
+    "ko": "데이지",
+    "query": "daisy flower"
+  },
+  {
+    "ko": "민들레",
+    "query": "dandelion"
+  },
+  {
+    "ko": "클로버",
+    "query": "four leaf clover"
+  },
+  {
+    "ko": "이끼",
+    "query": "green moss"
+  },
+  {
+    "ko": "고사리",
+    "query": "fern plant"
+  },
+  {
+    "ko": "다육식물",
+    "query": "succulent plant"
+  },
+  {
+    "ko": "분재",
+    "query": "bonsai tree"
+  },
+  {
+    "ko": "담쟁이",
+    "query": "ivy wall"
+  },
+  {
+    "ko": "포도밭",
+    "query": "vineyard"
+  },
+  {
+    "ko": "올리브 나무",
+    "query": "olive tree"
+  },
+  {
+    "ko": "사과 과수원",
+    "query": "apple orchard"
+  },
+  {
+    "ko": "귀리밭",
+    "query": "oat field"
+  },
+  {
+    "ko": "유채꽃밭",
+    "query": "canola flower field"
+  },
+  {
+    "ko": "얼음 동굴",
+    "query": "ice cave"
+  },
+  {
+    "ko": "사구",
+    "query": "sand dune"
+  },
+  {
+    "ko": "안개 숲",
+    "query": "foggy forest"
+  },
+  {
+    "ko": "소금 사막",
+    "query": "salt flat"
+  },
+  {
+    "ko": "극지방",
+    "query": "arctic landscape"
+  },
+  {
+    "ko": "사바나",
+    "query": "savanna landscape"
+  },
+  {
+    "ko": "스텝",
+    "query": "steppe landscape"
+  },
+  {
+    "ko": "툰드라",
+    "query": "tundra landscape"
+  },
+  {
+    "ko": "절벽 위 등대",
+    "query": "cliff lighthouse"
+  },
+  {
+    "ko": "해안 도로",
+    "query": "coastal road"
+  },
+  {
+    "ko": "산길",
+    "query": "mountain trail"
+  },
+  {
+    "ko": "숲속 오두막",
+    "query": "forest cabin"
+  },
+  {
+    "ko": "고층 빌딩",
+    "query": "skyscraper"
+  },
+  {
+    "ko": "한옥",
+    "query": "hanok house"
+  },
+  {
+    "ko": "초가집",
+    "query": "thatched roof house"
+  },
+  {
+    "ko": "성",
+    "query": "medieval castle"
+  },
+  {
+    "ko": "교회",
+    "query": "church building"
+  },
+  {
+    "ko": "모스크",
+    "query": "mosque"
+  },
+  {
+    "ko": "사원",
+    "query": "buddhist temple"
+  },
+  {
+    "ko": "탑",
+    "query": "pagoda"
+  },
+  {
+    "ko": "풍차",
+    "query": "windmill"
+  },
+  {
+    "ko": "등대",
+    "query": "lighthouse tower"
+  },
+  {
+    "ko": "전망대",
+    "query": "observation deck"
+  },
+  {
+    "ko": "온실",
+    "query": "greenhouse"
+  },
+  {
+    "ko": "헛간",
+    "query": "barn"
+  },
+  {
+    "ko": "오두막",
+    "query": "log cabin"
+  },
+  {
+    "ko": "트리하우스",
+    "query": "treehouse"
+  },
+  {
+    "ko": "이글루",
+    "query": "igloo"
+  },
+  {
+    "ko": "유르트",
+    "query": "yurt"
+  },
+  {
+    "ko": "피라미드형 건물",
+    "query": "pyramid building"
+  },
+  {
+    "ko": "돔 건물",
+    "query": "dome building"
+  },
+  {
+    "ko": "유리 건물",
+    "query": "glass building"
+  },
+  {
+    "ko": "다리",
+    "query": "bridge architecture"
+  },
+  {
+    "ko": "아치",
+    "query": "stone arch"
+  },
+  {
+    "ko": "분수대",
+    "query": "fountain"
+  },
+  {
+    "ko": "시계탑",
+    "query": "clock tower"
+  },
+  {
+    "ko": "종탑",
+    "query": "bell tower"
+  },
+  {
+    "ko": "첨탑",
+    "query": "spire"
+  },
+  {
+    "ko": "루프탑",
+    "query": "rooftop garden"
+  },
+  {
+    "ko": "발코니",
+    "query": "balcony flowers"
+  },
+  {
+    "ko": "베란다",
+    "query": "veranda"
+  },
+  {
+    "ko": "중정",
+    "query": "courtyard"
+  },
+  {
+    "ko": "거실",
+    "query": "living room interior"
+  },
+  {
+    "ko": "주방",
+    "query": "kitchen interior"
+  },
+  {
+    "ko": "욕실",
+    "query": "bathroom interior"
+  },
+  {
+    "ko": "서재",
+    "query": "home office"
+  },
+  {
+    "ko": "다락방",
+    "query": "attic room"
+  },
+  {
+    "ko": "지하실",
+    "query": "basement"
+  },
+  {
+    "ko": "벽난로",
+    "query": "fireplace"
+  },
+  {
+    "ko": "샹들리에",
+    "query": "chandelier"
+  },
+  {
+    "ko": "스테인드글라스",
+    "query": "stained glass"
+  },
+  {
+    "ko": "나선 계단",
+    "query": "spiral staircase"
+  },
+  {
+    "ko": "엘리베이터",
+    "query": "elevator interior"
+  },
+  {
+    "ko": "에스컬레이터",
+    "query": "escalator"
+  },
+  {
+    "ko": "수영장",
+    "query": "swimming pool"
+  },
+  {
+    "ko": "사우나",
+    "query": "sauna interior"
+  },
+  {
+    "ko": "볼링장",
+    "query": "bowling alley"
+  },
+  {
+    "ko": "영화관",
+    "query": "movie theater"
+  },
+  {
+    "ko": "콘서트홀",
+    "query": "concert hall"
+  },
+  {
+    "ko": "미술관",
+    "query": "art gallery"
+  },
+  {
+    "ko": "박물관",
+    "query": "museum interior"
+  },
+  {
+    "ko": "수족관",
+    "query": "aquarium"
+  },
+  {
+    "ko": "놀이공원",
+    "query": "amusement park"
+  },
+  {
+    "ko": "동물원",
+    "query": "zoo"
+  },
+  {
+    "ko": "식물원",
+    "query": "botanical garden"
+  },
+  {
+    "ko": "공항",
+    "query": "airport terminal"
+  },
+  {
+    "ko": "기차역",
+    "query": "train station"
+  },
+  {
+    "ko": "항구",
+    "query": "harbor port"
+  },
+  {
+    "ko": "마리나",
+    "query": "marina boats"
+  },
+  {
+    "ko": "시장",
+    "query": "outdoor market"
+  },
+  {
+    "ko": "야시장",
+    "query": "night market"
+  },
+  {
+    "ko": "카페",
+    "query": "cafe interior"
+  },
+  {
+    "ko": "서점",
+    "query": "bookstore"
+  },
+  {
+    "ko": "꽃집",
+    "query": "flower shop"
+  },
+  {
+    "ko": "빵집",
+    "query": "bakery shop"
+  },
+  {
+    "ko": "이발소",
+    "query": "barber shop"
+  },
+  {
+    "ko": "세탁소",
+    "query": "laundromat"
+  },
+  {
+    "ko": "주유소",
+    "query": "gas station"
+  },
+  {
+    "ko": "놀이터",
+    "query": "playground"
+  },
+  {
+    "ko": "벤치",
+    "query": "park bench"
+  },
+  {
+    "ko": "가로등",
+    "query": "street lamp"
+  },
+  {
+    "ko": "골목길",
+    "query": "narrow alley"
+  },
+  {
+    "ko": "계단",
+    "query": "outdoor stairs"
+  },
+  {
+    "ko": "담장",
+    "query": "stone wall"
+  },
+  {
+    "ko": "울타리",
+    "query": "picket fence"
+  },
+  {
+    "ko": "대문",
+    "query": "gate entrance"
+  },
+  {
+    "ko": "아치형 문",
+    "query": "archway"
+  },
+  {
+    "ko": "정자",
+    "query": "pavilion"
+  },
+  {
+    "ko": "원형극장",
+    "query": "amphitheater"
+  },
+  {
+    "ko": "스타디움",
+    "query": "stadium"
+  },
+  {
+    "ko": "야구장",
+    "query": "baseball stadium"
+  },
+  {
+    "ko": "테니스 코트",
+    "query": "tennis court"
+  },
+  {
+    "ko": "축구공",
+    "query": "soccer ball"
+  },
+  {
+    "ko": "농구공",
+    "query": "basketball"
+  },
+  {
+    "ko": "야구공",
+    "query": "baseball"
+  },
+  {
+    "ko": "테니스공",
+    "query": "tennis ball"
+  },
+  {
+    "ko": "골프공",
+    "query": "golf ball"
+  },
+  {
+    "ko": "탁구",
+    "query": "table tennis"
+  },
+  {
+    "ko": "배드민턴",
+    "query": "badminton shuttlecock"
+  },
+  {
+    "ko": "볼링핀",
+    "query": "bowling pins"
+  },
+  {
+    "ko": "권투 글러브",
+    "query": "boxing gloves"
+  },
+  {
+    "ko": "검도",
+    "query": "kendo"
+  },
+  {
+    "ko": "양궁",
+    "query": "archery"
+  },
+  {
+    "ko": "펜싱",
+    "query": "fencing sport"
+  },
+  {
+    "ko": "서핑",
+    "query": "surfing wave"
+  },
+  {
+    "ko": "스노보드",
+    "query": "snowboard"
+  },
+  {
+    "ko": "스키",
+    "query": "skiing"
+  },
+  {
+    "ko": "아이스 스케이트",
+    "query": "ice skating"
+  },
+  {
+    "ko": "피겨 스케이팅",
+    "query": "figure skating"
+  },
+  {
+    "ko": "암벽등반",
+    "query": "rock climbing"
+  },
+  {
+    "ko": "래프팅",
+    "query": "white water rafting"
+  },
+  {
+    "ko": "다이빙",
+    "query": "scuba diving"
+  },
+  {
+    "ko": "스노클링",
+    "query": "snorkeling"
+  },
+  {
+    "ko": "요가",
+    "query": "yoga pose"
+  },
+  {
+    "ko": "발레",
+    "query": "ballet dancer"
+  },
+  {
+    "ko": "태권도",
+    "query": "taekwondo"
+  },
+  {
+    "ko": "유도",
+    "query": "judo"
+  },
+  {
+    "ko": "스모",
+    "query": "sumo wrestling"
+  },
+  {
+    "ko": "크리켓",
+    "query": "cricket sport"
+  },
+  {
+    "ko": "럭비",
+    "query": "rugby ball"
+  },
+  {
+    "ko": "하키",
+    "query": "ice hockey"
+  },
+  {
+    "ko": "배구",
+    "query": "volleyball"
+  },
+  {
+    "ko": "핸드볼",
+    "query": "handball sport"
+  },
+  {
+    "ko": "수구",
+    "query": "water polo"
+  },
+  {
+    "ko": "카누 폴로",
+    "query": "canoe polo"
+  },
+  {
+    "ko": "크로스핏",
+    "query": "crossfit"
+  },
+  {
+    "ko": "역도",
+    "query": "weightlifting"
+  },
+  {
+    "ko": "체조",
+    "query": "gymnastics"
+  },
+  {
+    "ko": "트램폴린",
+    "query": "trampoline"
+  },
+  {
+    "ko": "마라톤",
+    "query": "marathon running"
+  },
+  {
+    "ko": "허들",
+    "query": "hurdle race"
+  },
+  {
+    "ko": "높이뛰기",
+    "query": "high jump"
+  },
+  {
+    "ko": "장대높이뛰기",
+    "query": "pole vault"
+  },
+  {
+    "ko": "원반던지기",
+    "query": "discus throw"
+  },
+  {
+    "ko": "창던지기",
+    "query": "javelin throw"
+  },
+  {
+    "ko": "봅슬레이",
+    "query": "bobsled team"
+  },
+  {
+    "ko": "컬링",
+    "query": "curling"
+  },
+  {
+    "ko": "승마",
+    "query": "horseback riding"
+  },
+  {
+    "ko": "폴로",
+    "query": "polo sport"
+  },
+  {
+    "ko": "사이클링",
+    "query": "cycling race"
+  },
+  {
+    "ko": "BMX",
+    "query": "BMX bike"
+  },
+  {
+    "ko": "스케이트보딩",
+    "query": "skateboarding trick"
+  },
+  {
+    "ko": "프리러닝",
+    "query": "parkour"
+  },
+  {
+    "ko": "윈드서핑",
+    "query": "windsurfing"
+  },
+  {
+    "ko": "카이트서핑",
+    "query": "kitesurfing"
+  },
+  {
+    "ko": "수상스키",
+    "query": "water skiing"
+  },
+  {
+    "ko": "웨이크보드",
+    "query": "wakeboarding"
+  },
+  {
+    "ko": "조정",
+    "query": "rowing sport"
+  },
+  {
+    "ko": "세일링",
+    "query": "sailing sport"
+  },
+  {
+    "ko": "사격",
+    "query": "shooting sport"
+  },
+  {
+    "ko": "근대5종",
+    "query": "modern pentathlon"
+  },
+  {
+    "ko": "철인3종",
+    "query": "triathlon"
+  },
+  {
+    "ko": "지구",
+    "query": "planet Earth"
+  },
+  {
+    "ko": "달",
+    "query": "moon surface"
+  },
+  {
+    "ko": "태양",
+    "query": "sun solar"
+  },
+  {
+    "ko": "토성",
+    "query": "Saturn planet"
+  },
+  {
+    "ko": "목성",
+    "query": "Jupiter planet"
+  },
+  {
+    "ko": "화성",
+    "query": "Mars planet"
+  },
+  {
+    "ko": "성운",
+    "query": "nebula space"
+  },
+  {
+    "ko": "블랙홀",
+    "query": "black hole space"
+  },
+  {
+    "ko": "은하",
+    "query": "galaxy"
+  },
+  {
+    "ko": "국제우주정거장",
+    "query": "ISS space station"
+  },
+  {
+    "ko": "우주비행사",
+    "query": "astronaut"
+  },
+  {
+    "ko": "달 착륙",
+    "query": "moon landing"
+  },
+  {
+    "ko": "위성",
+    "query": "satellite space"
+  },
+  {
+    "ko": "우주복",
+    "query": "spacesuit"
+  },
+  {
+    "ko": "로봇",
+    "query": "robot"
+  },
+  {
+    "ko": "인공지능",
+    "query": "AI circuit"
+  },
+  {
+    "ko": "DNA",
+    "query": "DNA helix"
+  },
+  {
+    "ko": "세포",
+    "query": "cell biology"
+  },
+  {
+    "ko": "뉴런",
+    "query": "neuron brain"
+  },
+  {
+    "ko": "원자",
+    "query": "atom model"
+  },
+  {
+    "ko": "결정",
+    "query": "crystal structure"
+  },
+  {
+    "ko": "화석",
+    "query": "fossil"
+  },
+  {
+    "ko": "공룡 뼈",
+    "query": "dinosaur skeleton"
+  },
+  {
+    "ko": "티라노사우루스",
+    "query": "T Rex"
+  },
+  {
+    "ko": "트리케라톱스",
+    "query": "Triceratops"
+  },
+  {
+    "ko": "프테라노돈",
+    "query": "Pteranodon"
+  },
+  {
+    "ko": "브라키오사우루스",
+    "query": "Brachiosaurus"
+  },
+  {
+    "ko": "매머드",
+    "query": "mammoth"
+  },
+  {
+    "ko": "암모나이트",
+    "query": "ammonite fossil"
+  },
+  {
+    "ko": "삼엽충",
+    "query": "trilobite fossil"
+  },
+  {
+    "ko": "실험실",
+    "query": "chemistry lab"
+  },
+  {
+    "ko": "비커",
+    "query": "beaker flask"
+  },
+  {
+    "ko": "시험관",
+    "query": "test tube"
+  },
+  {
+    "ko": "원심분리기",
+    "query": "centrifuge"
+  },
+  {
+    "ko": "전자현미경",
+    "query": "electron microscope"
+  },
+  {
+    "ko": "입자가속기",
+    "query": "particle accelerator"
+  },
+  {
+    "ko": "풍력발전기",
+    "query": "wind turbine"
+  },
+  {
+    "ko": "태양광 패널",
+    "query": "solar panel"
+  },
+  {
+    "ko": "원자력 발전소",
+    "query": "nuclear power plant"
+  },
+  {
+    "ko": "댐",
+    "query": "hydroelectric dam"
+  },
+  {
+    "ko": "전구",
+    "query": "light bulb"
+  },
+  {
+    "ko": "배터리",
+    "query": "battery"
+  },
+  {
+    "ko": "회로 기판",
+    "query": "circuit board"
+  },
+  {
+    "ko": "칩셋",
+    "query": "microchip"
+  },
+  {
+    "ko": "광섬유",
+    "query": "fiber optic"
+  },
+  {
+    "ko": "레이저",
+    "query": "laser beam"
+  },
+  {
+    "ko": "홀로그램",
+    "query": "hologram"
+  },
+  {
+    "ko": "3D 프린터",
+    "query": "3D printer"
+  },
+  {
+    "ko": "VR 헤드셋",
+    "query": "VR headset"
+  },
+  {
+    "ko": "자율주행차",
+    "query": "self driving car"
+  },
+  {
+    "ko": "화성 탐사선",
+    "query": "Mars rover"
+  },
+  {
+    "ko": "허블 망원경",
+    "query": "Hubble telescope"
+  },
+  {
+    "ko": "제임스웹 망원경",
+    "query": "James Webb telescope"
+  },
+  {
+    "ko": "천문대",
+    "query": "observatory"
+  },
+  {
+    "ko": "플라네타리움",
+    "query": "planetarium"
+  },
+  {
+    "ko": "전파 망원경",
+    "query": "radio telescope"
+  },
+  {
+    "ko": "기상 위성",
+    "query": "weather satellite"
+  },
+  {
+    "ko": "오존층",
+    "query": "ozone layer"
+  },
+  {
+    "ko": "빙하코어",
+    "query": "ice core"
+  },
+  {
+    "ko": "지진계",
+    "query": "seismograph"
+  },
+  {
+    "ko": "모나리자",
+    "query": "Mona Lisa painting"
+  },
+  {
+    "ko": "진주 귀걸이 소녀",
+    "query": "Girl with Pearl Earring"
+  },
+  {
+    "ko": "별이 빛나는 밤",
+    "query": "Starry Night Van Gogh"
+  },
+  {
+    "ko": "생각하는 사람",
+    "query": "The Thinker sculpture"
+  },
+  {
+    "ko": "다비드상",
+    "query": "David Michelangelo"
+  },
+  {
+    "ko": "비너스 탄생",
+    "query": "Birth of Venus"
+  },
+  {
+    "ko": "절규",
+    "query": "The Scream painting"
+  },
+  {
+    "ko": "최후의 만찬",
+    "query": "Last Supper Leonardo"
+  },
+  {
+    "ko": "오페라 마스크",
+    "query": "opera mask"
+  },
+  {
+    "ko": "가면",
+    "query": "venetian mask"
+  },
+  {
+    "ko": "부채",
+    "query": "hand fan"
+  },
+  {
+    "ko": "병풍",
+    "query": "folding screen"
+  },
+  {
+    "ko": "서예",
+    "query": "calligraphy"
+  },
+  {
+    "ko": "도자기",
+    "query": "pottery ceramic"
+  },
+  {
+    "ko": "옹기",
+    "query": "onggi pottery"
+  },
+  {
+    "ko": "청자",
+    "query": "celadon vase"
+  },
+  {
+    "ko": "백자",
+    "query": "white porcelain"
+  },
+  {
+    "ko": "종이접기",
+    "query": "origami"
+  },
+  {
+    "ko": "종이학",
+    "query": "origami crane"
+  },
+  {
+    "ko": "탈춤",
+    "query": "Korean mask dance"
+  },
+  {
+    "ko": "한복",
+    "query": "hanbok"
+  },
+  {
+    "ko": "기모노",
+    "query": "kimono"
+  },
+  {
+    "ko": "사리",
+    "query": "sari Indian"
+  },
+  {
+    "ko": "킬트",
+    "query": "Scottish kilt"
+  },
+  {
+    "ko": "투투",
+    "query": "ballet tutu"
+  },
+  {
+    "ko": "매듭",
+    "query": "Korean knot maedeup"
+  },
+  {
+    "ko": "보자기",
+    "query": "bojagi wrapping"
+  },
+  {
+    "ko": "자수",
+    "query": "embroidery"
+  },
+  {
+    "ko": "퀼트",
+    "query": "patchwork quilt"
+  },
+  {
+    "ko": "마크라메",
+    "query": "macrame wall hanging"
+  },
+  {
+    "ko": "도예 물레",
+    "query": "pottery wheel"
+  },
+  {
+    "ko": "유리 공예",
+    "query": "glass blowing"
+  },
+  {
+    "ko": "대장간",
+    "query": "blacksmith forge"
+  },
+  {
+    "ko": "직조기",
+    "query": "weaving loom"
+  },
+  {
+    "ko": "활자",
+    "query": "movable type printing"
+  },
+  {
+    "ko": "인쇄기",
+    "query": "printing press"
+  },
+  {
+    "ko": "카메라 옵스큐라",
+    "query": "camera obscura"
+  },
+  {
+    "ko": "환등기",
+    "query": "magic lantern"
+  },
+  {
+    "ko": "영사기",
+    "query": "film projector"
+  },
+  {
+    "ko": "필름 릴",
+    "query": "film reel"
+  },
+  {
+    "ko": "클래퍼보드",
+    "query": "clapperboard"
+  },
+  {
+    "ko": "마이크 스탠드",
+    "query": "microphone stand"
+  },
+  {
+    "ko": "스포트라이트",
+    "query": "spotlight stage"
+  },
+  {
+    "ko": "무대 커튼",
+    "query": "stage curtain"
+  },
+  {
+    "ko": "오케스트라",
+    "query": "orchestra"
+  },
+  {
+    "ko": "지휘봉",
+    "query": "conductor baton"
+  },
+  {
+    "ko": "악보",
+    "query": "sheet music"
+  },
+  {
+    "ko": "레코드판",
+    "query": "vinyl record"
+  },
+  {
+    "ko": "카세트테이프",
+    "query": "cassette tape"
+  },
+  {
+    "ko": "CD",
+    "query": "compact disc"
+  },
+  {
+    "ko": "그래피티",
+    "query": "graffiti art"
+  },
+  {
+    "ko": "벽화",
+    "query": "mural art"
+  },
+  {
+    "ko": "모자이크",
+    "query": "mosaic art"
+  },
+  {
+    "ko": "조각상",
+    "query": "sculpture"
+  },
+  {
+    "ko": "설치미술",
+    "query": "installation art"
+  },
+  {
+    "ko": "키네틱 아트",
+    "query": "kinetic art"
+  },
+  {
+    "ko": "팝아트",
+    "query": "pop art"
+  },
+  {
+    "ko": "추상화",
+    "query": "abstract painting"
+  },
+  {
+    "ko": "수채화",
+    "query": "watercolor painting"
+  },
+  {
+    "ko": "유화",
+    "query": "oil painting"
+  },
+  {
+    "ko": "요리사",
+    "query": "chef cooking"
+  },
+  {
+    "ko": "소방관",
+    "query": "firefighter"
+  },
+  {
+    "ko": "경찰관",
+    "query": "police officer"
+  },
+  {
+    "ko": "의사",
+    "query": "doctor hospital"
+  },
+  {
+    "ko": "간호사",
+    "query": "nurse"
+  },
+  {
+    "ko": "교사",
+    "query": "teacher classroom"
+  },
+  {
+    "ko": "과학자",
+    "query": "scientist lab"
+  },
+  {
+    "ko": "우주비행사",
+    "query": "astronaut suit"
+  },
+  {
+    "ko": "조종사",
+    "query": "pilot cockpit"
+  },
+  {
+    "ko": "선장",
+    "query": "ship captain"
+  },
+  {
+    "ko": "농부",
+    "query": "farmer field"
+  },
+  {
+    "ko": "어부",
+    "query": "fisherman boat"
+  },
+  {
+    "ko": "목수",
+    "query": "carpenter woodwork"
+  },
+  {
+    "ko": "대장장이",
+    "query": "blacksmith working"
+  },
+  {
+    "ko": "도예가",
+    "query": "potter artist"
+  },
+  {
+    "ko": "화가",
+    "query": "painter artist"
+  },
+  {
+    "ko": "사진작가",
+    "query": "photographer"
+  },
+  {
+    "ko": "DJ",
+    "query": "DJ mixing"
+  },
+  {
+    "ko": "지휘자",
+    "query": "orchestra conductor"
+  },
+  {
+    "ko": "마술사",
+    "query": "magician"
+  },
+  {
+    "ko": "광대",
+    "query": "clown"
+  },
+  {
+    "ko": "군인",
+    "query": "soldier military"
+  },
+  {
+    "ko": "수의사",
+    "query": "veterinarian"
+  },
+  {
+    "ko": "치과의사",
+    "query": "dentist"
+  },
+  {
+    "ko": "약사",
+    "query": "pharmacist"
+  },
+  {
+    "ko": "건축가",
+    "query": "architect blueprint"
+  },
+  {
+    "ko": "정비사",
+    "query": "mechanic car"
+  },
+  {
+    "ko": "배관공",
+    "query": "plumber"
+  },
+  {
+    "ko": "전기공",
+    "query": "electrician"
+  },
+  {
+    "ko": "우편배달부",
+    "query": "mail carrier"
+  },
+  {
+    "ko": "청소부",
+    "query": "street cleaner"
+  },
+  {
+    "ko": "미용사",
+    "query": "hair stylist"
+  },
+  {
+    "ko": "바리스타",
+    "query": "barista coffee"
+  },
+  {
+    "ko": "소믈리에",
+    "query": "sommelier wine"
+  },
+  {
+    "ko": "제빵사",
+    "query": "baker bread"
+  },
+  {
+    "ko": "정원사",
+    "query": "gardener"
+  },
+  {
+    "ko": "사서",
+    "query": "librarian"
+  },
+  {
+    "ko": "기상캐스터",
+    "query": "weather forecaster"
+  },
+  {
+    "ko": "뉴스 앵커",
+    "query": "news anchor"
+  },
+  {
+    "ko": "카메라맨",
+    "query": "cameraman filming"
+  },
+  {
+    "ko": "음향 기사",
+    "query": "sound engineer"
+  },
+  {
+    "ko": "무대 디자이너",
+    "query": "stage designer"
+  },
+  {
+    "ko": "스턴트맨",
+    "query": "stunt performer"
+  },
+  {
+    "ko": "서커스 단원",
+    "query": "circus performer"
+  },
+  {
+    "ko": "승무원",
+    "query": "flight attendant"
+  },
+  {
+    "ko": "심판",
+    "query": "referee"
+  },
+  {
+    "ko": "구조대원",
+    "query": "rescue worker"
+  },
+  {
+    "ko": "잠수부",
+    "query": "deep sea diver"
+  },
+  {
+    "ko": "산악 가이드",
+    "query": "mountain guide"
+  },
+  {
+    "ko": "스키 강사",
+    "query": "ski instructor"
+  },
+  {
+    "ko": "서핑 강사",
+    "query": "surf instructor"
+  },
+  {
+    "ko": "요가 강사",
+    "query": "yoga instructor"
+  },
+  {
+    "ko": "격투기 선수",
+    "query": "MMA fighter"
+  },
+  {
+    "ko": "체스 선수",
+    "query": "chess player"
+  },
+  {
+    "ko": "e스포츠 선수",
+    "query": "esports player"
+  },
+  {
+    "ko": "레이싱 드라이버",
+    "query": "racing driver"
+  },
+  {
+    "ko": "카우보이",
+    "query": "cowboy"
+  },
+  {
+    "ko": "사무라이",
+    "query": "samurai armor"
+  },
+  {
+    "ko": "바이킹",
+    "query": "viking warrior"
+  },
+  {
+    "ko": "기사",
+    "query": "medieval knight"
+  },
+  {
+    "ko": "하트",
+    "query": "heart shape"
+  },
+  {
+    "ko": "별",
+    "query": "star shape"
+  },
+  {
+    "ko": "평화의 상징",
+    "query": "peace sign"
+  },
+  {
+    "ko": "스마일",
+    "query": "smiley face"
+  },
+  {
+    "ko": "음양",
+    "query": "yin yang"
+  },
+  {
+    "ko": "무한대",
+    "query": "infinity symbol"
+  },
+  {
+    "ko": "올림픽 오륜",
+    "query": "Olympic rings"
+  },
+  {
+    "ko": "체크 깃발",
+    "query": "checkered flag"
+  },
+  {
+    "ko": "해적 깃발",
+    "query": "pirate flag"
+  },
+  {
+    "ko": "무지개 깃발",
+    "query": "rainbow flag"
+  },
+  {
+    "ko": "앰뷸런스 표시",
+    "query": "caduceus medical"
+  },
+  {
+    "ko": "방사능 표시",
+    "query": "radioactive symbol"
+  },
+  {
+    "ko": "재활용 표시",
+    "query": "recycling symbol"
+  },
+  {
+    "ko": "비상구",
+    "query": "emergency exit sign"
+  },
+  {
+    "ko": "정지 표지판",
+    "query": "stop sign"
+  },
+  {
+    "ko": "지문",
+    "query": "fingerprint"
+  },
+  {
+    "ko": "QR코드",
+    "query": "QR code"
+  },
+  {
+    "ko": "바코드",
+    "query": "barcode"
+  },
+  {
+    "ko": "이모지",
+    "query": "emoji face"
+  },
+  {
+    "ko": "픽셀 아트",
+    "query": "pixel art"
+  },
+  {
+    "ko": "8비트 게임",
+    "query": "8bit retro game"
+  },
+  {
+    "ko": "아케이드 게임기",
+    "query": "arcade game machine"
+  },
+  {
+    "ko": "게임패드",
+    "query": "game controller"
+  },
+  {
+    "ko": "조이스틱",
+    "query": "joystick retro"
+  },
+  {
+    "ko": "닌텐도 스위치",
+    "query": "Nintendo Switch"
+  },
+  {
+    "ko": "포켓몬 볼",
+    "query": "pokeball"
+  },
+  {
+    "ko": "큐빅",
+    "query": "Rubik cube solved"
+  },
+  {
+    "ko": "레고",
+    "query": "LEGO bricks"
+  },
+  {
+    "ko": "테디베어",
+    "query": "teddy bear"
+  },
+  {
+    "ko": "러버덕",
+    "query": "rubber duck"
+  },
+  {
+    "ko": "마트료시카",
+    "query": "matryoshka doll"
+  },
+  {
+    "ko": "달마 인형",
+    "query": "daruma doll"
+  },
+  {
+    "ko": "초승달",
+    "query": "crescent moon"
+  },
+  {
+    "ko": "해시계",
+    "query": "sundial"
+  },
+  {
+    "ko": "나침반 장미",
+    "query": "compass rose"
+  },
+  {
+    "ko": "앵커",
+    "query": "anchor"
+  },
+  {
+    "ko": "배 키",
+    "query": "ship wheel"
+  },
+  {
+    "ko": "깃펜",
+    "query": "quill pen"
+  },
+  {
+    "ko": "두루마리",
+    "query": "scroll"
+  },
+  {
+    "ko": "보물상자",
+    "query": "treasure chest"
+  },
+  {
+    "ko": "금괴",
+    "query": "gold bar"
+  },
+  {
+    "ko": "동전 더미",
+    "query": "stack of coins"
+  },
+  {
+    "ko": "저울",
+    "query": "balance scale"
+  },
+  {
+    "ko": "청진기",
+    "query": "stethoscope"
+  },
+  {
+    "ko": "온도계",
+    "query": "thermometer"
+  },
+  {
+    "ko": "주사기",
+    "query": "syringe"
+  },
+  {
+    "ko": "약병",
+    "query": "medicine bottle"
+  },
+  {
+    "ko": "붕대",
+    "query": "bandage"
+  },
+  {
+    "ko": "석고 캐스트",
+    "query": "arm cast"
+  },
+  {
+    "ko": "안전모",
+    "query": "hard hat"
+  },
+  {
+    "ko": "구명조끼",
+    "query": "life jacket"
+  },
+  {
+    "ko": "소화기",
+    "query": "fire extinguisher"
+  },
+  {
+    "ko": "경보기",
+    "query": "alarm bell"
+  },
+  {
+    "ko": "사이렌",
+    "query": "siren light"
+  },
+  {
+    "ko": "확성기",
+    "query": "megaphone"
+  },
+  {
+    "ko": "호루라기",
+    "query": "whistle"
+  },
+  {
+    "ko": "삽",
+    "query": "shovel"
+  },
+  {
+    "ko": "망치",
+    "query": "hammer"
+  },
+  {
+    "ko": "톱",
+    "query": "handsaw"
+  },
+  {
+    "ko": "렌치",
+    "query": "wrench"
+  },
+  {
+    "ko": "타이어",
+    "query": "tire"
+  },
+  {
+    "ko": "스패너",
+    "query": "spanner"
+  },
+  {
+    "ko": "드라이버",
+    "query": "screwdriver tool"
+  },
+  {
+    "ko": "못",
+    "query": "nails hardware"
+  },
+  {
+    "ko": "테이프",
+    "query": "duct tape"
+  },
+  {
+    "ko": "밧줄",
+    "query": "rope coil"
+  },
+  {
+    "ko": "사다리",
+    "query": "ladder"
+  },
+  {
+    "ko": "페인트통",
+    "query": "paint bucket"
+  },
+  {
+    "ko": "벽돌",
+    "query": "brick wall"
+  },
+  {
+    "ko": "시멘트",
+    "query": "cement mixer"
+  },
+  {
+    "ko": "골프채",
+    "query": "golf club"
+  },
+  {
+    "ko": "라켓",
+    "query": "tennis racket"
+  },
+  {
+    "ko": "배트",
+    "query": "baseball bat"
+  },
+  {
+    "ko": "헬멧",
+    "query": "sports helmet"
+  },
+  {
+    "ko": "방패",
+    "query": "shield"
+  },
+  {
+    "ko": "검",
+    "query": "sword"
+  },
+  {
+    "ko": "활",
+    "query": "bow arrow"
+  },
+  {
+    "ko": "창",
+    "query": "spear weapon"
+  },
+  {
+    "ko": "도끼",
+    "query": "axe"
+  },
+  {
+    "ko": "횃불",
+    "query": "torch fire"
+  },
+  {
+    "ko": "랜턴",
+    "query": "camping lantern"
+  },
+  {
+    "ko": "손전등",
+    "query": "flashlight"
+  },
+  {
+    "ko": "쌍안경",
+    "query": "binoculars"
+  },
+  {
+    "ko": "선풍기",
+    "query": "electric fan"
+  },
+  {
+    "ko": "에어컨",
+    "query": "air conditioner"
+  },
+  {
+    "ko": "세탁기",
+    "query": "washing machine"
+  },
+  {
+    "ko": "냉장고",
+    "query": "refrigerator"
+  },
+  {
+    "ko": "전자레인지",
+    "query": "microwave oven"
+  },
+  {
+    "ko": "토스터",
+    "query": "toaster"
+  },
+  {
+    "ko": "믹서기",
+    "query": "blender"
+  },
+  {
+    "ko": "커피머신",
+    "query": "coffee machine"
+  },
+  {
+    "ko": "다리미",
+    "query": "iron appliance"
+  },
+  {
+    "ko": "청소기",
+    "query": "vacuum cleaner"
+  },
+  {
+    "ko": "건조기",
+    "query": "clothes dryer"
+  },
+  {
+    "ko": "식기세척기",
+    "query": "dishwasher"
+  },
+  {
+    "ko": "정수기",
+    "query": "water purifier"
+  },
+  {
+    "ko": "가습기",
+    "query": "humidifier"
+  },
+  {
+    "ko": "공기청정기",
+    "query": "air purifier"
+  },
+  {
+    "ko": "프로젝터",
+    "query": "projector"
+  },
+  {
+    "ko": "스피커",
+    "query": "bluetooth speaker"
+  },
+  {
+    "ko": "태블릿",
+    "query": "tablet device"
+  },
+  {
+    "ko": "스마트워치",
+    "query": "smartwatch"
+  },
+  {
+    "ko": "이어폰",
+    "query": "earbuds wireless"
+  },
+  {
+    "ko": "USB",
+    "query": "USB drive"
+  },
+  {
+    "ko": "외장하드",
+    "query": "external hard drive"
+  },
+  {
+    "ko": "키보드",
+    "query": "mechanical keyboard"
+  },
+  {
+    "ko": "마우스",
+    "query": "computer mouse"
+  },
+  {
+    "ko": "모니터",
+    "query": "computer monitor"
+  },
+  {
+    "ko": "웹캠",
+    "query": "webcam"
+  }
 ]
