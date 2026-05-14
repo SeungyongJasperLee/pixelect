@@ -1,8 +1,11 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import quizBank from '../data/quizBank.json';
+import { fetchImage } from '../utils/unsplash';
+import { pixelateImage } from '../utils/pixelate';
 
 const TIMER_SECONDS = 5;
 const REVEAL_SECONDS = 3;
+const PIXEL_SIZE = 16;
 
 function generateQuestion(excludeIndices = []) {
   const available = quizBank
@@ -32,6 +35,9 @@ export function useGameState() {
   const [selectedChoice, setSelectedChoice] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
   const [usedIndices, setUsedIndices] = useState([]);
+  const [imageUrl, setImageUrl] = useState(null);
+  const [pixelCanvas, setPixelCanvas] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const timerRef = useRef(null);
   const revealRef = useRef(null);
@@ -52,14 +58,30 @@ export function useGameState() {
     }, 1000);
   }, []);
 
-  // 타임아웃 → 오답 처리
+  const loadImage = useCallback(async (query) => {
+    setIsLoading(true);
+    setPixelCanvas(null);
+    setImageUrl(null);
+    try {
+      const url = await fetchImage(query);
+      if (url) {
+        setImageUrl(url);
+        const canvas = await pixelateImage(url, 280, PIXEL_SIZE);
+        setPixelCanvas(canvas);
+      }
+    } catch (err) {
+      console.error('Image load error:', err);
+    }
+    setIsLoading(false);
+  }, []);
+
   useEffect(() => {
     if (timeLeft === 0 && phase === 'playing') {
       handleAnswer(null);
     }
   }, [timeLeft, phase]);
 
-  const startGame = useCallback(() => {
+  const startGame = useCallback(async () => {
     clearAllTimers();
     const q = generateQuestion();
     setQuestion(q);
@@ -67,36 +89,30 @@ export function useGameState() {
     setUsedIndices([q.answerIndex]);
     setSelectedChoice(null);
     setIsCorrect(null);
+    setPhase('loading');
+    await loadImage(q.answer.query);
     setPhase('playing');
     startTimer();
-  }, [startTimer, clearAllTimers]);
+  }, [startTimer, clearAllTimers, loadImage]);
 
   const handleAnswer = useCallback((choice) => {
     if (phase !== 'playing') return;
     clearInterval(timerRef.current);
-
     const correct = choice && choice.index === question?.answer?.index;
     setSelectedChoice(choice);
     setIsCorrect(correct);
-
     if (correct) {
       const newStreak = streak + 1;
       setStreak(newStreak);
       setPhase('reveal');
       setRevealCountdown(REVEAL_SECONDS);
-
-      // 3초 카운트다운 후 자동으로 다음 문제
       revealRef.current = setInterval(() => {
         setRevealCountdown((prev) => {
-          if (prev <= 1) {
-            clearInterval(revealRef.current);
-            return 0;
-          }
+          if (prev <= 1) { clearInterval(revealRef.current); return 0; }
           return prev - 1;
         });
       }, 1000);
     } else {
-      // 오답 → 바로 게임오버 (원본 공개와 함께)
       const finalStreak = streak;
       if (finalStreak > bestStreak) {
         setBestStreak(finalStreak);
@@ -106,38 +122,38 @@ export function useGameState() {
     }
   }, [question, streak, bestStreak, phase]);
 
-  // reveal 카운트다운 끝나면 다음 문제
   useEffect(() => {
     if (revealCountdown === 0 && phase === 'reveal') {
-      const newUsed = [...usedIndices];
-      const q = generateQuestion(newUsed);
-      if (!q) {
-        // 풀 소진
-        if (streak > bestStreak) {
-          setBestStreak(streak);
-          try { localStorage.setItem('pixelect_best', streak.toString()); } catch {}
+      (async () => {
+        const newUsed = [...usedIndices];
+        const q = generateQuestion(newUsed);
+        if (!q) {
+          if (streak > bestStreak) {
+            setBestStreak(streak);
+            try { localStorage.setItem('pixelect_best', streak.toString()); } catch {}
+          }
+          setPhase('gameover');
+          return;
         }
-        setPhase('gameover');
-        return;
-      }
-      setQuestion(q);
-      setUsedIndices([...newUsed, q.answerIndex]);
-      setSelectedChoice(null);
-      setIsCorrect(null);
-      setPhase('playing');
-      startTimer();
+        setQuestion(q);
+        setUsedIndices([...newUsed, q.answerIndex]);
+        setSelectedChoice(null);
+        setIsCorrect(null);
+        setPhase('loading');
+        await loadImage(q.answer.query);
+        setPhase('playing');
+        startTimer();
+      })();
     }
   }, [revealCountdown, phase]);
 
-  useEffect(() => {
-    return () => clearAllTimers();
-  }, [clearAllTimers]);
+  useEffect(() => { return () => clearAllTimers(); }, [clearAllTimers]);
 
   return {
     phase, question, streak, bestStreak,
     timeLeft, maxTime: TIMER_SECONDS,
-    revealCountdown,
-    selectedChoice, isCorrect,
+    revealCountdown, selectedChoice, isCorrect,
+    imageUrl, pixelCanvas, isLoading,
     startGame, handleAnswer,
   };
 }

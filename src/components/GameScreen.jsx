@@ -1,8 +1,27 @@
+// GameScreen.jsx
+// 수정: canvas를 DOM에 직접 appendChild하면 React의 가상 DOM과 충돌한다.
+// 왜: React는 자기가 관리하는 DOM 트리를 추적하는데,
+// 외부에서 노드를 추가/제거하면 "이 노드 모르는데?" 하고 에러가 난다.
+// 해결: canvas.toDataURL()로 이미지 데이터를 추출해서 일반 <img> 태그로 렌더링.
+// React가 관리할 수 있는 선언적 방식이라 충돌 없음.
+
+import { useState, useEffect } from 'react';
+
 export default function GameScreen({
-  question, streak, timeLeft, maxTime, onAnswer,
+  question, streak, timeLeft, maxTime, pixelCanvas, isLoading, onAnswer,
 }) {
+  const [pixelDataUrl, setPixelDataUrl] = useState(null);
   const timerPercent = (timeLeft / maxTime) * 100;
-  const isWarning = timeLeft <= 3 && timeLeft > 0;
+  const isWarning = timeLeft <= 2 && timeLeft > 0;
+
+  // pixelCanvas가 바뀔 때마다 data URL로 변환
+  useEffect(() => {
+    if (pixelCanvas) {
+      setPixelDataUrl(pixelCanvas.toDataURL());
+    } else {
+      setPixelDataUrl(null);
+    }
+  }, [pixelCanvas]);
 
   return (
     <>
@@ -12,8 +31,11 @@ export default function GameScreen({
 
       <main className="game-area">
         <div className="image-container">
-          {/* TODO: Unsplash 이미지 + Canvas 픽셀화 */}
-          <span className="image-placeholder">🖼️</span>
+          {isLoading && <span className="image-placeholder">⏳</span>}
+          {!isLoading && pixelDataUrl && (
+            <img src={pixelDataUrl} alt="mosaic" style={{width:'100%',height:'100%',objectFit:'cover'}} />
+          )}
+          {!isLoading && !pixelDataUrl && <span className="image-placeholder">🖼️</span>}
         </div>
 
         <div className="game-info">

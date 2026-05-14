@@ -1,4 +1,7 @@
-export default function GameOverOverlay({ question, streak, bestStreak, onRestart }) {
+// GameOverOverlay.jsx
+// 변경점: 원본 이미지 표시
+
+export default function GameOverOverlay({ question, streak, bestStreak, imageUrl, onRestart }) {
   const isNewBest = streak > 0 && streak >= bestStreak;
 
   const handleShare = async () => {
@@ -17,8 +20,11 @@ export default function GameOverOverlay({ question, streak, bestStreak, onRestar
     <div className="overlay">
       <div className="reveal-layout">
         <div className="reveal-image">
-          {/* TODO: 원본 이미지 (모자이크 점진적 해제) */}
-          <span className="image-placeholder">🖼️</span>
+          {imageUrl ? (
+            <img src={imageUrl} alt={question.answer.ko} style={{width:'100%',height:'100%',objectFit:'cover'}} />
+          ) : (
+            <span className="image-placeholder">🖼️</span>
+          )}
           <p className="reveal-image__label">{question.answer.ko}</p>
         </div>
 
