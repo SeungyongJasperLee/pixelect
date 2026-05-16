@@ -1,8 +1,37 @@
 // GameOverOverlay.jsx
-// 변경점: 원본 이미지 표시
+//
+// 수정: 원본 이미지를 바로 보여주던 것 → 모자이크 점진적 해제 애니메이션
+// 왜: 오답 시에도 "아 이게 이거였구나" 하는 학습 피드백이 필요.
+// 와이어프레임 p4/p8에 명시.
+
+import { useState, useEffect, useRef } from 'react';
+import { animateReveal } from '../utils/pixelate';
 
 export default function GameOverOverlay({ question, streak, bestStreak, imageUrl, onRestart }) {
+  const [revealDataUrl, setRevealDataUrl] = useState(null);
+  const cancelRef = useRef(null);
   const isNewBest = streak > 0 && streak >= bestStreak;
+
+  useEffect(() => {
+    if (!imageUrl) return;
+
+    if (cancelRef.current) cancelRef.current();
+
+    const cancel = animateReveal(
+      imageUrl,
+      280,
+      16,
+      2500,     // 2.5초 — 게임오버는 급할 필요 없으니 좀 더 여유롭게
+      (dataUrl) => setRevealDataUrl(dataUrl),
+      () => {}
+    );
+
+    cancelRef.current = cancel;
+
+    return () => {
+      if (cancelRef.current) cancelRef.current();
+    };
+  }, [imageUrl]);
 
   const handleShare = async () => {
     const text = `🧩 Pixelect에서 ${streak}연속 정답! 🔥\n도전해보세요!`;
@@ -20,10 +49,10 @@ export default function GameOverOverlay({ question, streak, bestStreak, imageUrl
     <div className="overlay">
       <div className="reveal-layout">
         <div className="reveal-image">
-          {imageUrl ? (
-            <img src={imageUrl} alt={question.answer.ko} style={{width:'100%',height:'100%',objectFit:'cover'}} />
+          {revealDataUrl ? (
+            <img src={revealDataUrl} alt={question.answer.ko} style={{width:'100%',height:'100%',objectFit:'cover'}} />
           ) : (
-            <span className="image-placeholder">🖼️</span>
+            <span className="image-placeholder">⏳</span>
           )}
           <p className="reveal-image__label">{question.answer.ko}</p>
         </div>
