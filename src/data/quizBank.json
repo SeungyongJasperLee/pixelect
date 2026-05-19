@@ -320,14 +320,6 @@
     "query": "skunk"
   },
   {
-    "ko": "두더지",
-    "query": "mole animal"
-  },
-  {
-    "ko": "박쥐",
-    "query": "bat animal"
-  },
-  {
     "ko": "순록",
     "query": "reindeer"
   },
@@ -370,10 +362,6 @@
   {
     "ko": "닭",
     "query": "chicken"
-  },
-  {
-    "ko": "칠면조",
-    "query": "turkey bird"
   },
   {
     "ko": "거위",
@@ -608,10 +596,6 @@
     "query": "blueberry"
   },
   {
-    "ko": "체리",
-    "query": "cherry fruit"
-  },
-  {
     "ko": "포도",
     "query": "grapes"
   },
@@ -638,18 +622,6 @@
   {
     "ko": "레몬",
     "query": "lemon"
-  },
-  {
-    "ko": "오렌지",
-    "query": "orange fruit"
-  },
-  {
-    "ko": "키위",
-    "query": "kiwi fruit"
-  },
-  {
-    "ko": "복숭아",
-    "query": "peach fruit"
   },
   {
     "ko": "석류",
@@ -886,10 +858,6 @@
   {
     "ko": "후지산",
     "query": "Mount Fuji"
-  },
-  {
-    "ko": "만리장성",
-    "query": "Great Wall winter"
   },
   {
     "ko": "나이아가라 폭포",
@@ -1340,10 +1308,6 @@
     "query": "hourglass"
   },
   {
-    "ko": "열쇠",
-    "query": "key lock"
-  },
-  {
     "ko": "자물쇠",
     "query": "padlock"
   },
@@ -1684,10 +1648,6 @@
     "query": "helicopter"
   },
   {
-    "ko": "열기구",
-    "query": "hot air balloon colorful"
-  },
-  {
     "ko": "행글라이더",
     "query": "hang glider"
   },
@@ -1862,10 +1822,6 @@
   {
     "ko": "드론",
     "query": "drone flying"
-  },
-  {
-    "ko": "짚라인",
-    "query": "zipline adventure"
   },
   {
     "ko": "번지점프",
@@ -2136,10 +2092,6 @@
     "query": "wetland"
   },
   {
-    "ko": "간척지",
-    "query": "reclaimed land"
-  },
-  {
     "ko": "용암",
     "query": "lava flow"
   },
@@ -2276,14 +2228,6 @@
     "query": "savanna landscape"
   },
   {
-    "ko": "스텝",
-    "query": "steppe landscape"
-  },
-  {
-    "ko": "툰드라",
-    "query": "tundra landscape"
-  },
-  {
     "ko": "절벽 위 등대",
     "query": "cliff lighthouse"
   },
@@ -2334,10 +2278,6 @@
   {
     "ko": "풍차",
     "query": "windmill"
-  },
-  {
-    "ko": "등대",
-    "query": "lighthouse tower"
   },
   {
     "ko": "전망대",
@@ -2920,30 +2860,6 @@
     "query": "robot"
   },
   {
-    "ko": "인공지능",
-    "query": "AI circuit"
-  },
-  {
-    "ko": "DNA",
-    "query": "DNA helix"
-  },
-  {
-    "ko": "세포",
-    "query": "cell biology"
-  },
-  {
-    "ko": "뉴런",
-    "query": "neuron brain"
-  },
-  {
-    "ko": "원자",
-    "query": "atom model"
-  },
-  {
-    "ko": "결정",
-    "query": "crystal structure"
-  },
-  {
     "ko": "화석",
     "query": "fossil"
   },
@@ -3000,10 +2916,6 @@
     "query": "electron microscope"
   },
   {
-    "ko": "입자가속기",
-    "query": "particle accelerator"
-  },
-  {
     "ko": "풍력발전기",
     "query": "wind turbine"
   },
@@ -3036,16 +2948,8 @@
     "query": "microchip"
   },
   {
-    "ko": "광섬유",
-    "query": "fiber optic"
-  },
-  {
     "ko": "레이저",
     "query": "laser beam"
-  },
-  {
-    "ko": "홀로그램",
-    "query": "hologram"
   },
   {
     "ko": "3D 프린터",
@@ -3086,14 +2990,6 @@
   {
     "ko": "기상 위성",
     "query": "weather satellite"
-  },
-  {
-    "ko": "오존층",
-    "query": "ozone layer"
-  },
-  {
-    "ko": "빙하코어",
-    "query": "ice core"
   },
   {
     "ko": "지진계",
@@ -4014,5 +3910,93 @@
   {
     "ko": "웹캠",
     "query": "webcam"
+  },
+  {
+    "ko": "북극곰",
+    "query": "polar bear"
+  },
+  {
+    "ko": "해달",
+    "query": "sea otter"
+  },
+  {
+    "ko": "독도",
+    "query": "Dokdo island"
+  },
+  {
+    "ko": "남극",
+    "query": "Antarctica"
+  },
+  {
+    "ko": "오지 오두막",
+    "query": "remote cabin"
+  },
+  {
+    "ko": "밤하늘 캠핑",
+    "query": "camping night sky"
+  },
+  {
+    "ko": "노을 바다",
+    "query": "sunset ocean"
+  },
+  {
+    "ko": "안개 산",
+    "query": "misty mountain"
+  },
+  {
+    "ko": "빈티지 카메라",
+    "query": "vintage camera"
+  },
+  {
+    "ko": "타이프라이터",
+    "query": "vintage typewriter"
+  },
+  {
+    "ko": "빈티지 자동차",
+    "query": "vintage automobile"
+  },
+  {
+    "ko": "네온 거리",
+    "query": "neon street night"
+  },
+  {
+    "ko": "우주 사진",
+    "query": "space photography NASA"
+  },
+  {
+    "ko": "현수교",
+    "query": "suspension bridge"
+  },
+  {
+    "ko": "파고다",
+    "query": "Asian pagoda"
+  },
+  {
+    "ko": "목련꽃",
+    "query": "magnolia blossom"
+  },
+  {
+    "ko": "석양 실루엣",
+    "query": "sunset silhouette"
+  },
+  {
+    "ko": "새벽 안개",
+    "query": "dawn mist"
+  },
+  {
+    "ko": "겨울 호수",
+    "query": "frozen lake winter"
+  },
+  {
+    "ko": "사막 낙타",
+    "query": "camel desert"
+  },
+  {
+    "ko": "열대 앵무새",
+    "query": "colorful parrot tropical"
+  },
+  {
+    "ko": "해변 조개",
+    "query": "seashell beach"
   }
 ]
