@@ -1,0 +1,14 @@
+{
+  "name": "Pixelect — 모자이크 퀴즈",
+  "short_name": "Pixelect",
+  "description": "모자이크 처리된 이미지를 보고 정답을 맞춰보세요!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121213",
+  "theme_color": "#121213",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
